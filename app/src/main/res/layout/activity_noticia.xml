@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufmg.coltec.tp.e03_layout.NoticiaActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:text="'Mr. Robot' é renovada para sua quarta temporada"/>
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/titulo"
+        android:textAlignment="center"
+        android:layout_marginTop="5sp"
+        android:text="Após grande sucesso nas 3 temporadas exibidas, série será renovada em 2018"/>
+
+    <TextView
+        android:id="@+id/autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitulo"
+        android:layout_alignEnd="@id/paragrafo1"
+        android:layout_marginEnd="10sp"
+        android:layout_marginTop="8sp"
+        android:text="Bryan Santos"
+        android:textColor="@android:color/holo_green_dark" />
+
+    <!-- Primeiro Parágrafo -->
+    <TextView
+        android:id="@+id/paragrafo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/autor"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginTop="10sp"
+        android:text="O canal USA anunciou a renovação de 'Mr. Robot' para uma quarta temporada. A notícia foi divulgada no dia em que o final da terceira leva de episódios da série foi ao ar nos EUA. Ainda não há previsão de estreia. " />
+
+
+    <!-- Segundo parágrafo -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paragrafo1"
+        android:layout_marginStart="5sp"
+        android:layout_marginEnd="5sp"
+        android:text="A atração é estrelada por Rami Malek, que ganhou um Emmy pelo papel em 2016, e Christian Slater. A história acompanha Elliot Alderson (Malek), um engenheiro de segurança cibernética que se envolve no grupo de hackers após ser recrutado por seu misterioso líder, o Mr. Robot (Slater)."
+        android:layout_marginTop="5sp"
+        android:id="@+id/paragrafo2"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paragrafo2"
+        android:layout_alignEnd="@id/paragrafo2"
+        android:textColor="@android:color/black"
+        android:text="14/03/2018 - 19:30"/>
+
+
+    <!--Sobre o autor-->
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignStart="@+id/paragrafo2"
+        android:layout_below="@+id/data"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/nome_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profile"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/profile"
+        android:text="Bryan Santos Oliveira"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nome_autor"
+        android:layout_below="@+id/nome_autor"
+        android:layout_marginTop="11dp"
+        android:text="Email de contato : bryans0701@gmail.com" />
+
+</RelativeLayout>
