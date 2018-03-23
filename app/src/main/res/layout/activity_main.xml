@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity">
+    tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity"
+    android:background="@drawable/wallpaper">
 
     <TextView
         android:id="@+id/bem-vindo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="20sp"
-        android:layout_marginTop="10sp"
+        android:textSize="28sp"
+        android:layout_marginTop="20sp"
+        android:textColor="@android:color/white"
         android:text="Bem vindo à central de layouts!"/>
 
-</RelativeLayout>
+    <TableRow
+        android:layout_marginTop="90sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/splash_button"
+            android:width="200sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="splash screen"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/noticia_button"
+            android:width="200sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="notícia do dia"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/previsao_button"
+            android:width="200sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="previsão do tempo"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/formulario_button"
+            android:width="200sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="formulário"/>
+
+    </TableRow>
+
+</TableLayout>

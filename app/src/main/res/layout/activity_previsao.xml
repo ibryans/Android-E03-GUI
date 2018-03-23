@@ -61,7 +61,7 @@
 
         <TextView
             android:padding="25dp"
-            android:text="19°/ 26º"
+            android:text="18°/ 25º"
             android:textSize="20sp"
             android:textColor="@android:color/white"/>
 
@@ -83,7 +83,7 @@
 
         <TextView
             android:padding="25dp"
-            android:text="19°/ 26º"
+            android:text="17°/ 26º"
             android:textSize="20sp"
             android:textColor="@android:color/white"/>
 
@@ -105,7 +105,7 @@
 
         <TextView
             android:padding="25dp"
-            android:text="19°/ 26º"
+            android:text="17°/ 27º"
             android:textSize="20sp"
             android:textColor="@android:color/white"/>
 
@@ -127,7 +127,7 @@
 
         <TextView
             android:padding="25dp"
-            android:text="19°/ 26º"
+            android:text="17°/ 28º"
             android:textSize="20sp"
             android:textColor="@android:color/white"/>
 
@@ -149,7 +149,7 @@
 
         <TextView
             android:padding="25dp"
-            android:text="19°/ 26º"
+            android:text="16°/ 27º"
             android:textSize="20sp"
             android:textColor="@android:color/white"/>
 
@@ -171,7 +171,7 @@
 
         <TextView
             android:padding="25dp"
-            android:text="19°/ 26º"
+            android:text="17°/ 27º"
             android:textSize="20sp"
             android:textColor="@android:color/white" />
 
