@@ -48,6 +48,7 @@
         android:rating="5" />
 
     <Button
+        android:id="@+id/btn-finalizar"
         android:layout_width="176dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
