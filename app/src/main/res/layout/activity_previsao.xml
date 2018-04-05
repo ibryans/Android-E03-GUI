@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="br.ufmg.coltec.tp.e03_layout.PrevisaoActivity"
+    android:background="@drawable/rain"
+    android:stretchColumns="3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:text="Belo Horizonte"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="Minas Gerais, Brasil"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"/>
+
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_marginTop="7dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="Quinta-Feira"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/thunderstorms"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="19°/ 26º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:gravity="center">
+
+        <TextView
+            android:text="Sexta-Feira"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/thunderstorms"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="18°/ 25º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:gravity="center">
+
+        <TextView
+            android:text="Sábado"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/partly_cloudy"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="17°/ 26º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:gravity="center">
+
+        <TextView
+            android:text="Domingo"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/partly_cloudy"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="17°/ 27º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:gravity="center">
+
+        <TextView
+            android:text="Segunda-Feira"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/partly_cloudy"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="17°/ 28º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:gravity="center">
+
+        <TextView
+            android:text="Terça-feira"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/partly_cloudy"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="16°/ 27º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:gravity="center">
+
+        <TextView
+            android:text="Quarta-Feira"
+            android:padding="25dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:src="@drawable/partly_cloudy"
+            android:padding="18dp" />
+
+        <TextView
+            android:padding="25dp"
+            android:text="17°/ 27º"
+            android:textSize="20sp"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+</TableLayout>
